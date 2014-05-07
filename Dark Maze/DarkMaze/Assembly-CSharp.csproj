@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{8CD7EE46-990D-1904-1D22-19FD6BA97841}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_1;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;Instuctions</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\ColorBar_Script.cs" />
+     <Compile Include="Assets\Scripts\ColoredLight_Script.cs" />
+     <Compile Include="Assets\Scripts\Colour.cs" />
+     <Compile Include="Assets\Scripts\Controls.cs" />
+     <Compile Include="Assets\Scripts\Goal.cs" />
+     <Compile Include="Assets\Scripts\HSVColor.cs" />
+     <Compile Include="Assets\Scripts\LightAbsorbingPortal_Script.cs" />
+     <Compile Include="Assets\Scripts\LightBarBackground_Script.cs" />
+     <Compile Include="Assets\Scripts\LightBarContainer_Script.cs" />
+     <Compile Include="Assets\Scripts\LightBar_Script.cs" />
+     <Compile Include="Assets\Scripts\LightButton_Script.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\InstructionText_Script.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\menu_button_color_script.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\menu_button_open_scene.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\menu_button_volume_changer.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\menu_volume_watcher.cs" />
+     <Compile Include="Assets\Scripts\PlayerAudio.cs" />
+     <Compile Include="Assets\Scripts\PlayerLight_Script.cs" />
+     <Compile Include="Assets\Scripts\Player_Script.cs" />
+     <Compile Include="Assets\Scripts\PowerupButtonControl.cs" />
+     <Compile Include="Assets\Scripts\ThumbstickControl.cs" />
+     <Compile Include="Assets\Scripts\TimerDisplay.cs" />
+     <Compile Include="Assets\Scripts\TrailNode.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,8 @@
+-there is high friction on the player that is absent while airborn, which screws ramp-based levels
+	(decrease friction and acceleration)
+
+-once you use the yellow power it's not needed any more
+
+-the yellow blocks need gravity (and friction if not present already)
+
+-reset on R

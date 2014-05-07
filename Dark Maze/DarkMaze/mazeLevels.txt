@@ -1,0 +1,34 @@
+White
+	1: stupid easy level
+	2: easy level
+
+Blue
+	1: put the filler far from the absorber
+	2: a ramp
+	
+Maze1: minor maze with spotlight focus
+	
+Red
+	1: red absorber separated from filler by a red block
+	2: rush to get through two red blocks
+	
+Maze2: major maze with spotlight focus
+	
+Yellow
+	1: push block into a nook to get through the narrow path
+	2: push blocks into nooks in order
+	
+BR
+	1: need to hold a little red to get by a block and a bunch of blue to zoom to the end
+
+BY
+	1: screw difficulty, this one's bowling
+
+RY
+	1: tiny bit of red to get through the door and a bunch of yellow to push the block through the maze (emergency ramp to get out)
+
+BRY
+	one level
+		-use red to pass through wall to get around yellow to push it back toward the beginning
+		-push ramp that was being blocked by the other yellow object to the side then forward
+		- need to use blue to ramp over the wall and need a little red at the end to get through
